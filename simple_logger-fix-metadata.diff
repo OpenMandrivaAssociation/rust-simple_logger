@@ -1,0 +1,12 @@
+--- simple_logger-1.5.0/Cargo.toml	1970-01-01T00:00:00+00:00
++++ simple_logger-1.5.0/Cargo.toml	2020-01-28T17:16:41.090606+00:00
+@@ -31,9 +31,3 @@
+ 
+ [features]
+ default = ["colored", "chrono"]
+-[target."cfg(windows)".dependencies.atty]
+-version = "0.2.13"
+-
+-[target."cfg(windows)".dependencies.winapi]
+-version = "0.3"
+-features = ["handleapi", "winbase"]
